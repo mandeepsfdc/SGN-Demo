@@ -116,4 +116,8 @@
         <name>Gearset_Deploy</name>
         <type>ConnectedApp</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Okta</name>
+        <type>ExternalClientApplication</type>
+    </appMenuItems>
 </AppMenu>
