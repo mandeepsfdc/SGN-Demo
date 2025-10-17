@@ -113,9 +113,9 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>Gearset</name>
-        <type>ConnectedApp</type>
-    </appMenuItems>
+        <name>Gearset</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
     <appMenuItems>
         <name>Gearset_Deploy</name>
         <type>ConnectedApp</type>
@@ -123,5 +123,9 @@
     <appMenuItems>
         <name>orgfarm_app_1</name>
         <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Mandeep</name>
+        <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>
