@@ -108,4 +108,8 @@
         <name>standard__LightningScheduler</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Mandeep</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>
