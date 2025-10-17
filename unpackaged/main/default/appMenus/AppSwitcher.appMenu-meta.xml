@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AppMenu xmlns="http://soap.sforce.com/2006/04/metadata">
     <appMenuItems>
-        <name>devedapp__Developer_Edition</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>standard__FlowsApp</name>
         <type>CustomApplication</type>
     </appMenuItems>
@@ -110,14 +106,6 @@
     </appMenuItems>
     <appMenuItems>
         <name>standard__LightningScheduler</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>Gearset_Deploy</name>
-        <type>ConnectedApp</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>Mandeep</name>
         <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>
