@@ -14,6 +14,13 @@
                 <stringValue>www.google.com</stringValue>
             </value>
         </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Description</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>This is a desc</stringValue>
+            </value>
+        </assignmentItems>
     </assignments>
     <environments>Default</environments>
     <interviewLabel>Bug-Fix-1 {!$Flow.CurrentDateTime}</interviewLabel>
