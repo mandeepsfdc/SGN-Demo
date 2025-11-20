@@ -14,6 +14,13 @@
                 <stringValue>hello world</stringValue>
             </value>
         </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Description</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>This is a bug fix</stringValue>
+            </value>
+        </assignmentItems>
         <connector>
             <targetReference>Call_Account_Subflow</targetReference>
         </connector>
