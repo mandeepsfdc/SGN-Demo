@@ -38,6 +38,7 @@
             <createTask>false</createTask>
             <emailAddress>devcsdirector@sgn.co.uk</emailAddress>
             
+            
             <isPermsetControlled>false</isPermsetControlled>
             
             <newEntityRecordType>Case.CRM_Unclassified</newEntityRecordType>
@@ -52,6 +53,7 @@
             <casePriority>High</casePriority>
             <createTask>false</createTask>
             <emailAddress>devcustomer@sgn.co.uk</emailAddress>
+            
             
             <isPermsetControlled>false</isPermsetControlled>
             
