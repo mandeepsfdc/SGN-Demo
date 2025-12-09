@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRM_Sub_category__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <complianceGroup>PII</complianceGroup>
+    <label>Sub-Category</label>
+    <required>false</required>
+    <securityClassification>Internal</securityClassification>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>CRM_Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Acceptance Enquiry</fullName>
+                <default>false</default>
+                <label>Acceptance Enquiry</label>
+            </value>
+            <value>
+                <fullName>Access/Parking Issues</fullName>
+                <default>false</default>
+                <label>Access/Parking Issues</label>
+            </value>
+            <value>
+                <fullName>Accuracy Challenge</fullName>
+                <default>false</default>
+                <label>Accuracy Challenge</label>
+            </value>
+            <value>
+                <fullName>Appliance/Outlet Pipework Enquiry</fullName>
+                <default>false</default>
+                <label>Appliance/Outlet Pipework Enquiry</label>
+            </value>
+            <value>
+                <fullName>Appliance Delivery</fullName>
+                <default>false</default>
+                <label>Appliance Delivery</label>
+            </value>
+            <value>
+                <fullName>Application Enquiry</fullName>
+                <default>false</default>
+                <label>Application Enquiry</label>
+            </value>
+            <value>
+                <fullName>Arrangements to carry out work</fullName>
+                <default>false</default>
+                <label>Arrangements to carry out work</label>
+            </value>
+            <value>
+                <fullName>Assisted Connections</fullName>
+                <default>false</default>
+                <label>Assisted Connections</label>
+            </value>
+            <value>
+                <fullName>Assisted Connections/Fuel Poverty Enquiry</fullName>
+                <default>false</default>
+                <label>Assisted Connections/Fuel Poverty Enquiry</label>
+            </value>
+            <value>
+                <fullName>Broken Promise</fullName>
+                <default>false</default>
+                <label>Broken Promise</label>
+            </value>
+            <value>
+                <fullName>Cancellation</fullName>
+                <default>false</default>
+                <label>Cancellation</label>
+            </value>
+            <value>
+                <fullName>Capacity Check</fullName>
+                <default>false</default>
+                <label>Capacity Check</label>
+            </value>
+            <value>
+                <fullName>Capacity Increase</fullName>
+                <default>false</default>
+                <label>Capacity Increase</label>
+            </value>
+            <value>
+                <fullName>Change Date Request</fullName>
+                <default>false</default>
+                <label>Change Date Request</label>
+            </value>
+            <value>
+                <fullName>Check for Safety</fullName>
+                <default>false</default>
+                <label>Check for Safety</label>
+            </value>
+            <value>
+                <fullName>Completion Letter Enquiry</fullName>
+                <default>false</default>
+                <label>Completion Letter Enquiry</label>
+            </value>
+            <value>
+                <fullName>Consent Enquiry</fullName>
+                <default>false</default>
+                <label>Consent Enquiry</label>
+            </value>
+            <value>
+                <fullName>Customer Enquiry</fullName>
+                <default>false</default>
+                <label>Customer Enquiry</label>
+            </value>
+            <value>
+                <fullName>Customer MPRN Enquiry</fullName>
+                <default>false</default>
+                <label>Customer MPRN Enquiry</label>
+            </value>
+            <value>
+                <fullName>Customer Satisfaction Survey Feedback</fullName>
+                <default>false</default>
+                <label>Customer Satisfaction Survey Feedback</label>
+            </value>
+            <value>
+                <fullName>Damage</fullName>
+                <default>false</default>
+                <label>Damage</label>
+            </value>
+            <value>
+                <fullName>Date query or change</fullName>
+                <default>false</default>
+                <label>Date query or change</label>
+            </value>
+            <value>
+                <fullName>Deferral Request</fullName>
+                <default>false</default>
+                <label>Deferral Request</label>
+            </value>
+            <value>
+                <fullName>Delay</fullName>
+                <default>false</default>
+                <label>Delay</label>
+            </value>
+            <value>
+                <fullName>Demolition</fullName>
+                <default>false</default>
+                <label>Demolition</label>
+            </value>
+            <value>
+                <fullName>Disconnection</fullName>
+                <default>false</default>
+                <label>Disconnection</label>
+            </value>
+            <value>
+                <fullName>Disputed Charges</fullName>
+                <default>false</default>
+                <label>Disputed Charges</label>
+            </value>
+            <value>
+                <fullName>Disputes</fullName>
+                <default>false</default>
+                <label>Disputes</label>
+            </value>
+            <value>
+                <fullName>Disruption</fullName>
+                <default>false</default>
+                <label>Disruption</label>
+            </value>
+            <value>
+                <fullName>Disruption &amp; Noise</fullName>
+                <default>false</default>
+                <label>Disruption &amp; Noise</label>
+            </value>
+            <value>
+                <fullName>Domestic Alteration</fullName>
+                <default>false</default>
+                <label>Domestic Alteration</label>
+            </value>
+            <value>
+                <fullName>Domestic Disconnection</fullName>
+                <default>false</default>
+                <label>Domestic Disconnection</label>
+            </value>
+            <value>
+                <fullName>Domestic New Supply</fullName>
+                <default>false</default>
+                <label>Domestic New Supply</label>
+            </value>
+            <value>
+                <fullName>Easements &amp; Servitudes</fullName>
+                <default>false</default>
+                <label>Easements &amp; Servitudes</label>
+            </value>
+            <value>
+                <fullName>Equipment to be Uplifted</fullName>
+                <default>false</default>
+                <label>Equipment to be Uplifted</label>
+            </value>
+            <value>
+                <fullName>Fleet</fullName>
+                <default>false</default>
+                <label>Fleet</label>
+            </value>
+            <value>
+                <fullName>Follow Up Call</fullName>
+                <default>false</default>
+                <label>Follow Up Call</label>
+            </value>
+            <value>
+                <fullName>Gas Emergency Reported</fullName>
+                <default>false</default>
+                <label>Gas Emergency Reported</label>
+            </value>
+            <value>
+                <fullName>Gas Holder Enquiry</fullName>
+                <default>false</default>
+                <label>Gas Holder Enquiry</label>
+            </value>
+            <value>
+                <fullName>Gas In Area Enquiry</fullName>
+                <default>false</default>
+                <label>Gas In Area Enquiry</label>
+            </value>
+            <value>
+                <fullName>Gas Loads</fullName>
+                <default>false</default>
+                <label>Gas Loads</label>
+            </value>
+            <value>
+                <fullName>General Communication</fullName>
+                <default>false</default>
+                <label>General Communication</label>
+            </value>
+            <value>
+                <fullName>Governor Maintenance</fullName>
+                <default>false</default>
+                <label>Governor Maintenance</label>
+            </value>
+            <value>
+                <fullName>Governor Station Site Enquiry</fullName>
+                <default>false</default>
+                <label>Governor Station Site Enquiry</label>
+            </value>
+            <value>
+                <fullName>GSMR</fullName>
+                <default>false</default>
+                <label>GSMR</label>
+            </value>
+            <value>
+                <fullName>GSOS Compensation</fullName>
+                <default>false</default>
+                <label>GSOS Compensation</label>
+            </value>
+            <value>
+                <fullName>GT1 &amp; GT2 Request</fullName>
+                <default>false</default>
+                <label>GT1 &amp; GT2 Request</label>
+            </value>
+            <value>
+                <fullName>Human Resources</fullName>
+                <default>false</default>
+                <label>Human Resources</label>
+            </value>
+            <value>
+                <fullName>Incident Update Request</fullName>
+                <default>false</default>
+                <label>Incident Update Request</label>
+            </value>
+            <value>
+                <fullName>Info Request on Work Progress or Outcome</fullName>
+                <default>false</default>
+                <label>Info Request on Work Progress or Outcome</label>
+            </value>
+            <value>
+                <fullName>Information Request</fullName>
+                <default>false</default>
+                <label>Information Request</label>
+            </value>
+            <value>
+                <fullName>Initial Request</fullName>
+                <default>false</default>
+                <label>Initial Request</label>
+            </value>
+            <value>
+                <fullName>Insufficient Notice</fullName>
+                <default>false</default>
+                <label>Insufficient Notice</label>
+            </value>
+            <value>
+                <fullName>Invoice Enquiry</fullName>
+                <default>false</default>
+                <label>Invoice Enquiry</label>
+            </value>
+            <value>
+                <fullName>Issue caused by work</fullName>
+                <default>false</default>
+                <label>Issue caused by work</label>
+            </value>
+            <value>
+                <fullName>Loss of Business</fullName>
+                <default>false</default>
+                <label>Loss of Business</label>
+            </value>
+            <value>
+                <fullName>Mains Diversion Enquiry</fullName>
+                <default>false</default>
+                <label>Mains Diversion Enquiry</label>
+            </value>
+            <value>
+                <fullName>Mains Pipe Location Enquiry</fullName>
+                <default>false</default>
+                <label>Mains Pipe Location Enquiry</label>
+            </value>
+            <value>
+                <fullName>MAM Enquiry</fullName>
+                <default>false</default>
+                <label>MAM Enquiry</label>
+            </value>
+            <value>
+                <fullName>Maps</fullName>
+                <default>false</default>
+                <label>Maps</label>
+            </value>
+            <value>
+                <fullName>Meter Box Repairs Enquiry</fullName>
+                <default>false</default>
+                <label>Meter Box Repairs Enquiry</label>
+            </value>
+            <value>
+                <fullName>Meter Box Repairs Request</fullName>
+                <default>false</default>
+                <label>Meter Box Repairs Request</label>
+            </value>
+            <value>
+                <fullName>Meter Box Type or Location</fullName>
+                <default>false</default>
+                <label>Meter Box Type or Location</label>
+            </value>
+            <value>
+                <fullName>Meter Issue</fullName>
+                <default>false</default>
+                <label>Meter Issue</label>
+            </value>
+            <value>
+                <fullName>Meter Position</fullName>
+                <default>false</default>
+                <label>Meter Position</label>
+            </value>
+            <value>
+                <fullName>Missed Appointment</fullName>
+                <default>false</default>
+                <label>Missed Appointment</label>
+            </value>
+            <value>
+                <fullName>MPRN</fullName>
+                <default>false</default>
+                <label>MPRN</label>
+            </value>
+            <value>
+                <fullName>Network Planning</fullName>
+                <default>false</default>
+                <label>Network Planning</label>
+            </value>
+            <value>
+                <fullName>Non Domestic/Multiple Alteration</fullName>
+                <default>false</default>
+                <label>Non Domestic/Multiple Alteration</label>
+            </value>
+            <value>
+                <fullName>Non Domestic/Multiple Disconnection</fullName>
+                <default>false</default>
+                <label>Non Domestic/Multiple Disconnection</label>
+            </value>
+            <value>
+                <fullName>Non Domestic/Multiple New Supply</fullName>
+                <default>false</default>
+                <label>Non Domestic/Multiple New Supply</label>
+            </value>
+            <value>
+                <fullName>Non SGN Network Area</fullName>
+                <default>false</default>
+                <label>Non SGN Network Area</label>
+            </value>
+            <value>
+                <fullName>Not Received</fullName>
+                <default>false</default>
+                <label>Not Received</label>
+            </value>
+            <value>
+                <fullName>Obstruction</fullName>
+                <default>false</default>
+                <label>Obstruction</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other Utility Enquiry</fullName>
+                <default>false</default>
+                <label>Other Utility Enquiry</label>
+            </value>
+            <value>
+                <fullName>Outcome of Job</fullName>
+                <default>false</default>
+                <label>Outcome of Job</label>
+            </value>
+            <value>
+                <fullName>Overall Timescales</fullName>
+                <default>false</default>
+                <label>Overall Timescales</label>
+            </value>
+            <value>
+                <fullName>Payment</fullName>
+                <default>false</default>
+                <label>Payment</label>
+            </value>
+            <value>
+                <fullName>Personal Injury</fullName>
+                <default>false</default>
+                <label>Personal Injury</label>
+            </value>
+            <value>
+                <fullName>Plan Date Confirmation</fullName>
+                <default>false</default>
+                <label>Plan Date Confirmation</label>
+            </value>
+            <value>
+                <fullName>Plan Date Request</fullName>
+                <default>false</default>
+                <label>Plan Date Request</label>
+            </value>
+            <value>
+                <fullName>Plan Date Request Deferred by Customer</fullName>
+                <default>false</default>
+                <label>Plan Date Request Deferred by Customer</label>
+            </value>
+            <value>
+                <fullName>Plan Date Request Deferred by SGN</fullName>
+                <default>false</default>
+                <label>Plan Date Request Deferred by SGN</label>
+            </value>
+            <value>
+                <fullName>Planning Letter Enquiry</fullName>
+                <default>false</default>
+                <label>Planning Letter Enquiry</label>
+            </value>
+            <value>
+                <fullName>Policy Meter Exchange Enquiry</fullName>
+                <default>false</default>
+                <label>Policy Meter Exchange Enquiry</label>
+            </value>
+            <value>
+                <fullName>Pre Site Visit</fullName>
+                <default>false</default>
+                <label>Pre Site Visit</label>
+            </value>
+            <value>
+                <fullName>Price Request</fullName>
+                <default>false</default>
+                <label>Price Request</label>
+            </value>
+            <value>
+                <fullName>Pricing Enquiry</fullName>
+                <default>false</default>
+                <label>Pricing Enquiry</label>
+            </value>
+            <value>
+                <fullName>Progress</fullName>
+                <default>false</default>
+                <label>Progress</label>
+            </value>
+            <value>
+                <fullName>Progress or Outcome</fullName>
+                <default>false</default>
+                <label>Progress or Outcome</label>
+            </value>
+            <value>
+                <fullName>Property Enquiry</fullName>
+                <default>false</default>
+                <label>Property Enquiry</label>
+            </value>
+            <value>
+                <fullName>Proximity Work</fullName>
+                <default>false</default>
+                <label>Proximity Work</label>
+            </value>
+            <value>
+                <fullName>Purge &amp; Relight</fullName>
+                <default>false</default>
+                <label>Purge &amp; Relight</label>
+            </value>
+            <value>
+                <fullName>Quality of Work</fullName>
+                <default>false</default>
+                <label>Quality of Work</label>
+            </value>
+            <value>
+                <fullName>Quotation Enquiry</fullName>
+                <default>false</default>
+                <label>Quotation Enquiry</label>
+            </value>
+            <value>
+                <fullName>Quotation Issue</fullName>
+                <default>false</default>
+                <label>Quotation Issue</label>
+            </value>
+            <value>
+                <fullName>Reconnection Issues</fullName>
+                <default>false</default>
+                <label>Reconnection Issues</label>
+            </value>
+            <value>
+                <fullName>Refund Enquiry</fullName>
+                <default>false</default>
+                <label>Refund Enquiry</label>
+            </value>
+            <value>
+                <fullName>Reimbursement</fullName>
+                <default>false</default>
+                <label>Reimbursement</label>
+            </value>
+            <value>
+                <fullName>Re-raise Request</fullName>
+                <default>false</default>
+                <label>Re-raise Request</label>
+            </value>
+            <value>
+                <fullName>Safety Issue</fullName>
+                <default>false</default>
+                <label>Safety Issue</label>
+            </value>
+            <value>
+                <fullName>Sales Call</fullName>
+                <default>false</default>
+                <label>Sales Call</label>
+            </value>
+            <value>
+                <fullName>Service Pipe Location Enquiry</fullName>
+                <default>false</default>
+                <label>Service Pipe Location Enquiry</label>
+            </value>
+            <value>
+                <fullName>Service Relay</fullName>
+                <default>false</default>
+                <label>Service Relay</label>
+            </value>
+            <value>
+                <fullName>Skill &amp; Professionalism</fullName>
+                <default>false</default>
+                <label>Skill &amp; Professionalism</label>
+            </value>
+            <value>
+                <fullName>Skill &amp; Professionalism of Office Staff</fullName>
+                <default>false</default>
+                <label>Skill &amp; Professionalism of Office Staff</label>
+            </value>
+            <value>
+                <fullName>Skill &amp; Professionalism of Workforce</fullName>
+                <default>false</default>
+                <label>Skill &amp; Professionalism of Workforce</label>
+            </value>
+            <value>
+                <fullName>Speed of Reconnection</fullName>
+                <default>false</default>
+                <label>Speed of Reconnection</label>
+            </value>
+            <value>
+                <fullName>Supplier Enquiry</fullName>
+                <default>false</default>
+                <label>Supplier Enquiry</label>
+            </value>
+            <value>
+                <fullName>Supplier MPRN Enquiry</fullName>
+                <default>false</default>
+                <label>Supplier MPRN Enquiry</label>
+            </value>
+            <value>
+                <fullName>Supply Interruption</fullName>
+                <default>false</default>
+                <label>Supply Interruption</label>
+            </value>
+            <value>
+                <fullName>Supply off</fullName>
+                <default>false</default>
+                <label>Supply off</label>
+            </value>
+            <value>
+                <fullName>Survey Request</fullName>
+                <default>false</default>
+                <label>Survey Request</label>
+            </value>
+            <value>
+                <fullName>Survey Timescales</fullName>
+                <default>false</default>
+                <label>Survey Timescales</label>
+            </value>
+            <value>
+                <fullName>Thank you</fullName>
+                <default>false</default>
+                <label>Thank you</label>
+            </value>
+            <value>
+                <fullName>Time of Arrival</fullName>
+                <default>false</default>
+                <label>Time of Arrival</label>
+            </value>
+            <value>
+                <fullName>Timescales</fullName>
+                <default>false</default>
+                <label>Timescales</label>
+            </value>
+            <value>
+                <fullName>Traffic Disruption</fullName>
+                <default>false</default>
+                <label>Traffic Disruption</label>
+            </value>
+            <value>
+                <fullName>Traffic Management</fullName>
+                <default>false</default>
+                <label>Traffic Management</label>
+            </value>
+            <value>
+                <fullName>Unsatisfactory</fullName>
+                <default>false</default>
+                <label>Unsatisfactory</label>
+            </value>
+            <value>
+                <fullName>Update Contact Information</fullName>
+                <default>false</default>
+                <label>Update Contact Information</label>
+            </value>
+            <value>
+                <fullName>Variation</fullName>
+                <default>false</default>
+                <label>Variation</label>
+            </value>
+            <value>
+                <fullName>Variations</fullName>
+                <default>false</default>
+                <label>Variations</label>
+            </value>
+            <value>
+                <fullName>Wayleaves</fullName>
+                <default>false</default>
+                <label>Wayleaves</label>
+            </value>
+            <value>
+                <fullName>Website Related</fullName>
+                <default>false</default>
+                <label>Website Related</label>
+            </value>
+            <value>
+                <fullName>Xoserve Enquiry</fullName>
+                <default>false</default>
+                <label>Xoserve Enquiry</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Minimum Information</controllingFieldValue>
+            <valueName>Gas Loads</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Minimum Information</controllingFieldValue>
+            <valueName>Maps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Minimum Information</controllingFieldValue>
+            <valueName>Meter Box Type or Location</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MPRN Enquiry</controllingFieldValue>
+            <valueName>Customer MPRN Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MPRN Enquiry</controllingFieldValue>
+            <valueName>Supplier MPRN Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Appliance/Outlet Pipework Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Assisted Connections</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>General/Other</controllingFieldValue>
+            <valueName>Broken Promise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Capacity Check</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Completion Letter Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Customer Satisfaction Survey Feedback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Fleet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Job Request</controllingFieldValue>
+            <valueName>Gas Emergency Reported</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>GSMR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>GT1 &amp; GT2 Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Human Resources</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Info Request on Work Progress or Outcome</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>MPRN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Network Planning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Non SGN Network Area</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Overall Timescales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Sales Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>Thank you</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Update Contact Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Website Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Xoserve Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physical Work</controllingFieldValue>
+            <valueName>Access/Parking Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physical Work</controllingFieldValue>
+            <valueName>Disruption &amp; Noise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physical Work</controllingFieldValue>
+            <controllingFieldValue>Reinstatement</controllingFieldValue>
+            <controllingFieldValue>Advance Notification</controllingFieldValue>
+            <valueName>Information Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physical Work</controllingFieldValue>
+            <controllingFieldValue>General/Other</controllingFieldValue>
+            <valueName>Missed Appointment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physical Work</controllingFieldValue>
+            <controllingFieldValue>Reinstatement</controllingFieldValue>
+            <controllingFieldValue>Signing, Lighting, Guarding &amp; Traffic Management</controllingFieldValue>
+            <valueName>Obstruction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physical Work</controllingFieldValue>
+            <controllingFieldValue>General/Other</controllingFieldValue>
+            <valueName>Quality of Work</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physical Work</controllingFieldValue>
+            <valueName>Reconnection Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physical Work</controllingFieldValue>
+            <controllingFieldValue>Signing, Lighting, Guarding &amp; Traffic Management</controllingFieldValue>
+            <valueName>Safety Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physical Work</controllingFieldValue>
+            <valueName>Supply Interruption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Planning</controllingFieldValue>
+            <valueName>Cancellation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Planning</controllingFieldValue>
+            <valueName>Change Date Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Planning</controllingFieldValue>
+            <valueName>Deferral Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Planning</controllingFieldValue>
+            <valueName>Plan Date Confirmation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Planning</controllingFieldValue>
+            <valueName>Plan Date Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Planning</controllingFieldValue>
+            <valueName>Plan Date Request Deferred by Customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Planning</controllingFieldValue>
+            <valueName>Plan Date Request Deferred by SGN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Planning</controllingFieldValue>
+            <valueName>Planning Letter Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Planning</controllingFieldValue>
+            <valueName>Pre Site Visit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Planning</controllingFieldValue>
+            <controllingFieldValue>Information</controllingFieldValue>
+            <valueName>Time of Arrival</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Planning</controllingFieldValue>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <controllingFieldValue>Reinstatement</controllingFieldValue>
+            <controllingFieldValue>Information/Update</controllingFieldValue>
+            <valueName>Timescales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plant Protection</controllingFieldValue>
+            <valueName>Demolition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plant Protection</controllingFieldValue>
+            <valueName>Mains Pipe Location Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plant Protection</controllingFieldValue>
+            <valueName>Other Utility Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plant Protection</controllingFieldValue>
+            <valueName>Proximity Work</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plant Protection</controllingFieldValue>
+            <valueName>Service Pipe Location Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Accuracy Challenge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <controllingFieldValue>Advance Notification</controllingFieldValue>
+            <valueName>Not Received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Pricing Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Quotation Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Quotation Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Variation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reinstatement</controllingFieldValue>
+            <valueName>Delay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reinstatement</controllingFieldValue>
+            <controllingFieldValue>Signing, Lighting, Guarding &amp; Traffic Management</controllingFieldValue>
+            <valueName>Equipment to be Uplifted</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reinstatement</controllingFieldValue>
+            <valueName>Unsatisfactory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Signing, Lighting, Guarding &amp; Traffic Management</controllingFieldValue>
+            <valueName>Traffic Disruption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Signing, Lighting, Guarding &amp; Traffic Management</controllingFieldValue>
+            <valueName>Traffic Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Survey</controllingFieldValue>
+            <valueName>Survey Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Survey</controllingFieldValue>
+            <valueName>Survey Timescales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General/Other</controllingFieldValue>
+            <valueName>Disruption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General/Other</controllingFieldValue>
+            <valueName>Meter Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General/Other</controllingFieldValue>
+            <valueName>Meter Position</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General/Other</controllingFieldValue>
+            <valueName>Speed of Reconnection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incident</controllingFieldValue>
+            <controllingFieldValue>Job Request</controllingFieldValue>
+            <valueName>Appliance Delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incident</controllingFieldValue>
+            <valueName>Incident Update Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information</controllingFieldValue>
+            <valueName>Check for Safety</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information</controllingFieldValue>
+            <valueName>Outcome of Job</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information</controllingFieldValue>
+            <valueName>Progress</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information</controllingFieldValue>
+            <controllingFieldValue>Job Request</controllingFieldValue>
+            <valueName>Purge &amp; Relight</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information/Update</controllingFieldValue>
+            <valueName>Date query or change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information/Update</controllingFieldValue>
+            <valueName>Progress or Outcome</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information/Update</controllingFieldValue>
+            <valueName>Supply off</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Job Request</controllingFieldValue>
+            <valueName>Service Relay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>Disputes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Acceptance</controllingFieldValue>
+            <valueName>Easements &amp; Servitudes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>Property Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>Wayleaves</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Live/Dead Checks</controllingFieldValue>
+            <controllingFieldValue>Loss of Business</controllingFieldValue>
+            <controllingFieldValue>Mains Diversion</controllingFieldValue>
+            <controllingFieldValue>Meter Box Repairs</controllingFieldValue>
+            <valueName>Follow Up Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Live/Dead Checks</controllingFieldValue>
+            <controllingFieldValue>Loss of Business</controllingFieldValue>
+            <valueName>Initial Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mains Diversion</controllingFieldValue>
+            <valueName>Mains Diversion Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maintenance</controllingFieldValue>
+            <valueName>Gas Holder Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maintenance</controllingFieldValue>
+            <valueName>Governor Maintenance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maintenance</controllingFieldValue>
+            <valueName>Governor Station Site Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acceptance</controllingFieldValue>
+            <valueName>Acceptance Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acceptance</controllingFieldValue>
+            <valueName>Consent Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acceptance</controllingFieldValue>
+            <controllingFieldValue>Damage Billing</controllingFieldValue>
+            <valueName>Payment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acceptance</controllingFieldValue>
+            <valueName>Refund Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acceptance</controllingFieldValue>
+            <valueName>Variations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Access</controllingFieldValue>
+            <valueName>Arrangements to carry out work</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Access</controllingFieldValue>
+            <valueName>Issue caused by work</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Advance Notification</controllingFieldValue>
+            <valueName>Insufficient Notice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Application Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Assisted Connections/Fuel Poverty Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Capacity Increase</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Disconnection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Domestic Alteration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Domestic Disconnection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Domestic New Supply</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Gas In Area Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Non Domestic/Multiple Alteration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Non Domestic/Multiple Disconnection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Non Domestic/Multiple New Supply</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Price Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Re-raise Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Damage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>GSOS Compensation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Loss of Business</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Personal Injury</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>Reimbursement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <controllingFieldValue>Dispatch</controllingFieldValue>
+            <valueName>Skill &amp; Professionalism</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Damage Billing</controllingFieldValue>
+            <valueName>Disputed Charges</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Damage Billing</controllingFieldValue>
+            <valueName>Invoice Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>General Communication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>Skill &amp; Professionalism of Office Staff</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>Skill &amp; Professionalism of Workforce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meter Box Repairs</controllingFieldValue>
+            <valueName>Meter Box Repairs Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meter Box Repairs</controllingFieldValue>
+            <valueName>Meter Box Repairs Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metering</controllingFieldValue>
+            <valueName>Customer Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metering</controllingFieldValue>
+            <valueName>MAM Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metering</controllingFieldValue>
+            <valueName>Policy Meter Exchange Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metering</controllingFieldValue>
+            <valueName>Supplier Enquiry</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

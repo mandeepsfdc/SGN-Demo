@@ -7,23 +7,48 @@
         <label>Email</label>
     </standardValue>
     <standardValue>
-        <fullName>Phone</fullName>
+        <fullName>IN PERSON</fullName>
         <default>false</default>
-        <label>Phone</label>
+        <label>IN PERSON</label>
     </standardValue>
     <standardValue>
-        <fullName>Web</fullName>
+        <fullName>LETTER</fullName>
         <default>false</default>
-        <label>Web</label>
+        <label>LETTER</label>
     </standardValue>
     <standardValue>
-        <fullName>Facebook</fullName>
+        <fullName>LIVE CHAT</fullName>
         <default>false</default>
-        <label>Facebook</label>
+        <label>LIVE CHAT</label>
     </standardValue>
     <standardValue>
-        <fullName>Twitter</fullName>
+        <fullName>SOCIAL MEDIA</fullName>
         <default>false</default>
-        <label>Twitter</label>
+        <label>SOCIAL MEDIA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TELEPHONE</fullName>
+        <default>false</default>
+        <label>TELEPHONE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>WEB FORM</fullName>
+        <default>false</default>
+        <label>WEB FORM</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SMS</fullName>
+        <default>false</default>
+        <label>SMS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>WhatsApp</fullName>
+        <default>false</default>
+        <label>WhatsApp</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Referral App</fullName>
+        <default>false</default>
+        <label>Referral App</label>
     </standardValue>
 </StandardValueSet>

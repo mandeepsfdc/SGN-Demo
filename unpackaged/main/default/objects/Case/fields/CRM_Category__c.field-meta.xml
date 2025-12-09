@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRM_Category__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <complianceGroup>PII</complianceGroup>
+    <label>Category</label>
+    <required>false</required>
+    <securityClassification>Internal</securityClassification>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>CRM_Workstream__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Acceptance</fullName>
+                <default>false</default>
+                <label>Acceptance</label>
+            </value>
+            <value>
+                <fullName>Access</fullName>
+                <default>false</default>
+                <label>Access</label>
+            </value>
+            <value>
+                <fullName>Advance Notification</fullName>
+                <default>false</default>
+                <label>Advance Notification</label>
+            </value>
+            <value>
+                <fullName>Application</fullName>
+                <default>false</default>
+                <label>Application</label>
+            </value>
+            <value>
+                <fullName>Claims</fullName>
+                <default>false</default>
+                <label>Claims</label>
+            </value>
+            <value>
+                <fullName>Customer Service</fullName>
+                <default>false</default>
+                <label>Customer Service</label>
+            </value>
+            <value>
+                <fullName>Damage Billing</fullName>
+                <default>false</default>
+                <label>Damage Billing</label>
+            </value>
+            <value>
+                <fullName>Dispatch</fullName>
+                <default>false</default>
+                <label>Dispatch</label>
+            </value>
+            <value>
+                <fullName>Feedback</fullName>
+                <default>false</default>
+                <label>Feedback</label>
+            </value>
+            <value>
+                <fullName>General/Other</fullName>
+                <default>false</default>
+                <label>General/Other</label>
+            </value>
+            <value>
+                <fullName>Incident</fullName>
+                <default>false</default>
+                <label>Incident</label>
+            </value>
+            <value>
+                <fullName>Information</fullName>
+                <default>false</default>
+                <label>Information</label>
+            </value>
+            <value>
+                <fullName>Information/Update</fullName>
+                <default>false</default>
+                <label>Information/Update</label>
+            </value>
+            <value>
+                <fullName>Job Request</fullName>
+                <default>false</default>
+                <label>Job Request</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>Live/Dead Checks</fullName>
+                <default>false</default>
+                <label>Live/Dead Checks</label>
+            </value>
+            <value>
+                <fullName>Loss of Business</fullName>
+                <default>false</default>
+                <label>Loss of Business</label>
+            </value>
+            <value>
+                <fullName>Mains Diversion</fullName>
+                <default>false</default>
+                <label>Mains Diversion</label>
+            </value>
+            <value>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+                <label>Maintenance</label>
+            </value>
+            <value>
+                <fullName>Meter Box Repairs</fullName>
+                <default>false</default>
+                <label>Meter Box Repairs</label>
+            </value>
+            <value>
+                <fullName>Metering</fullName>
+                <default>false</default>
+                <label>Metering</label>
+            </value>
+            <value>
+                <fullName>Minimum Information</fullName>
+                <default>false</default>
+                <label>Minimum Information</label>
+            </value>
+            <value>
+                <fullName>MPRN Enquiry</fullName>
+                <default>false</default>
+                <label>MPRN Enquiry</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Physical Work</fullName>
+                <default>false</default>
+                <label>Physical Work</label>
+            </value>
+            <value>
+                <fullName>Planning</fullName>
+                <default>false</default>
+                <label>Planning</label>
+            </value>
+            <value>
+                <fullName>Plant Protection</fullName>
+                <default>false</default>
+                <label>Plant Protection</label>
+            </value>
+            <value>
+                <fullName>Quote</fullName>
+                <default>false</default>
+                <label>Quote</label>
+            </value>
+            <value>
+                <fullName>Reinstatement</fullName>
+                <default>false</default>
+                <label>Reinstatement</label>
+            </value>
+            <value>
+                <fullName>Signing, Lighting, Guarding &amp; Traffic Management</fullName>
+                <default>false</default>
+                <label>Signing, Lighting, Guarding &amp; Traffic Management</label>
+            </value>
+            <value>
+                <fullName>Survey</fullName>
+                <default>false</default>
+                <label>Survey</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Connections</controllingFieldValue>
+            <valueName>Acceptance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Connections</controllingFieldValue>
+            <valueName>Application</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Connections</controllingFieldValue>
+            <controllingFieldValue>Emergency/Repair</controllingFieldValue>
+            <controllingFieldValue>Mains Replacement</controllingFieldValue>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>Claims</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Connections</controllingFieldValue>
+            <controllingFieldValue>Emergency/Repair</controllingFieldValue>
+            <controllingFieldValue>Mains Replacement</controllingFieldValue>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>Feedback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Connections</controllingFieldValue>
+            <valueName>Minimum Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Connections</controllingFieldValue>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Connections</controllingFieldValue>
+            <valueName>Physical Work</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Connections</controllingFieldValue>
+            <valueName>Planning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Connections</controllingFieldValue>
+            <valueName>Quote</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Connections</controllingFieldValue>
+            <controllingFieldValue>Emergency/Repair</controllingFieldValue>
+            <controllingFieldValue>Mains Replacement</controllingFieldValue>
+            <valueName>Reinstatement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Connections</controllingFieldValue>
+            <valueName>Survey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Emergency/Repair</controllingFieldValue>
+            <controllingFieldValue>Mains Replacement</controllingFieldValue>
+            <valueName>Access</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Emergency/Repair</controllingFieldValue>
+            <controllingFieldValue>Mains Replacement</controllingFieldValue>
+            <valueName>General/Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Emergency/Repair</controllingFieldValue>
+            <valueName>Incident</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Emergency/Repair</controllingFieldValue>
+            <valueName>Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Emergency/Repair</controllingFieldValue>
+            <valueName>Job Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Emergency/Repair</controllingFieldValue>
+            <controllingFieldValue>Mains Replacement</controllingFieldValue>
+            <valueName>Signing, Lighting, Guarding &amp; Traffic Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mains Replacement</controllingFieldValue>
+            <valueName>Advance Notification</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mains Replacement</controllingFieldValue>
+            <valueName>Information/Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>Customer Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>Damage Billing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>Dispatch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>Legal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>Live/Dead Checks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>Loss of Business</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>Mains Diversion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>Maintenance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>Meter Box Repairs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>Metering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>MPRN Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>Plant Protection</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
