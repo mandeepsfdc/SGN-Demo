@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Vacation</fullName>
+        <default>true</default>
+        <label>Vacation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting</fullName>
+        <default>false</default>
+        <label>Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Training</fullName>
+        <default>false</default>
+        <label>Training</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Medical</fullName>
+        <default>false</default>
+        <label>Medical</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meal</fullName>
+        <default>false</default>
+        <label>Meal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Assisting FCO</fullName>
+        <default>false</default>
+        <label>Assisting FCO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Audits</fullName>
+        <default>false</default>
+        <label>Audits</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BCM</fullName>
+        <default>false</default>
+        <label>BCM</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Break</fullName>
+        <default>false</default>
+        <label>Break</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Camera</fullName>
+        <default>false</default>
+        <label>Camera</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CONX</fullName>
+        <default>false</default>
+        <label>CONX</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Datalog</fullName>
+        <default>false</default>
+        <label>Datalog</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Depot</fullName>
+        <default>false</default>
+        <label>Depot</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Welfare 14 hours</fullName>
+        <default>false</default>
+        <label>Welfare 14 hours</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Welfare 16 hours</fullName>
+        <default>false</default>
+        <label>Welfare 16 hours</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Fuel</fullName>
+        <default>false</default>
+        <label>Fuel</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Garage</fullName>
+        <default>false</default>
+        <label>Garage</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Governors</fullName>
+        <default>false</default>
+        <label>Governors</label>
+    </standardValue>
+    <standardValue>
+        <fullName>GSMR</fullName>
+        <default>false</default>
+        <label>GSMR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Highrise</fullName>
+        <default>false</default>
+        <label>Highrise</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Holiday</fullName>
+        <default>false</default>
+        <label>Holiday</label>
+    </standardValue>
+    <standardValue>
+        <fullName>I&amp;C</fullName>
+        <default>false</default>
+        <label>I&amp;C</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Incident</fullName>
+        <default>false</default>
+        <label>Incident</label>
+    </standardValue>
+    <standardValue>
+        <fullName>J42</fullName>
+        <default>false</default>
+        <label>J42</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Light Duties</fullName>
+        <default>false</default>
+        <label>Light Duties</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Must Reads</fullName>
+        <default>false</default>
+        <label>Must Reads</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Manager</fullName>
+        <default>false</default>
+        <label>Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Maps</fullName>
+        <default>false</default>
+        <label>Maps</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MPRS</fullName>
+        <default>false</default>
+        <label>MPRS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Network Services</fullName>
+        <default>false</default>
+        <label>Network Services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Oiling</fullName>
+        <default>false</default>
+        <label>Oiling</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Outlet</fullName>
+        <default>false</default>
+        <label>Outlet</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Personal</fullName>
+        <default>false</default>
+        <label>Personal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Repex</fullName>
+        <default>false</default>
+        <label>Repex</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Rest Time</fullName>
+        <default>false</default>
+        <label>Rest Time</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Survey</fullName>
+        <default>false</default>
+        <label>Survey</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Team Brief</fullName>
+        <default>false</default>
+        <label>Team Brief</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tool Check</fullName>
+        <default>false</default>
+        <label>Tool Check</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trade Union</fullName>
+        <default>false</default>
+        <label>Trade Union</label>
+    </standardValue>
+</StandardValueSet>
