@@ -73,6 +73,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.demo_email__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>ActionPlan.ActionPlanState</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2749,6 +2754,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>RecordAlert.Subject</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ResourceAbsence.FSM_Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
