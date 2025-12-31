@@ -57,8 +57,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Website</fieldItem>
-                <identifier>RecordWebsiteField</identifier>
+                <fieldItem>Record.Description</fieldItem>
+                <identifier>RecordDescriptionField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -67,8 +67,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Description</fieldItem>
-                <identifier>RecordDescriptionField</identifier>
+                <fieldItem>Record.Mandeep1__c</fieldItem>
+                <identifier>RecordMandeep1_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-62c18be5-f04d-4358-adee-60a1db2badbc</name>
@@ -121,8 +121,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.NumberOfEmployees</fieldItem>
-                <identifier>RecordNumberOfEmployeesField</identifier>
+                <fieldItem>Record.SicDesc</fieldItem>
+                <identifier>RecordSicDescField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-1dfb2cc7-f21d-4b8c-80e6-337584140ca6</name>
