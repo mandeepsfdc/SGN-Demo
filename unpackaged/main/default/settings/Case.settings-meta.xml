@@ -13,7 +13,7 @@
     <defaultCaseOwner>peterphilip@sgn.com</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
     <emailToCase>
-        <enableE2CAttachmentAsFile>false</enableE2CAttachmentAsFile>
+        <enableE2CAttachmentAsFile>true</enableE2CAttachmentAsFile>
         <enableE2CDeduplicateAttachments>false</enableE2CDeduplicateAttachments>
         <enableE2CExternalServer>false</enableE2CExternalServer>
         <enableE2CSourceTracking>true</enableE2CSourceTracking>
@@ -29,6 +29,36 @@
         <overEmailLimitAction>Bounce</overEmailLimitAction>
         <preQuoteSignature>false</preQuoteSignature>
         <replyWithNewContentOnly>false</replyWithNewContentOnly>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <caseOwner>CRM_Unclassified_Queue</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>High</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>devcsdirector@sgn.co.uk</emailAddress>
+            
+            <isPermsetControlled>false</isPermsetControlled>
+            
+            <newEntityRecordType>Case.CRM_Unclassified</newEntityRecordType>
+            <routingName>SGN CS Director</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <caseOwner>CRM_Unclassified_Queue</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>High</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>devcustomer@sgn.co.uk</emailAddress>
+            
+            <isPermsetControlled>false</isPermsetControlled>
+            
+            <newEntityRecordType>Case.CRM_Unclassified</newEntityRecordType>
+            <routingName>SGN Customer</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
         <unauthorizedSenderAction>Discard</unauthorizedSenderAction>
         <useEmailHeadersForThreading>true</useEmailHeadersForThreading>
     </emailToCase>
@@ -51,6 +81,7 @@
     <enableSuggestedSolutions>true</enableSuggestedSolutions>
     <escalateCaseBefore>false</escalateCaseBefore>
     <hidePublicInCaseComment>false</hidePublicInCaseComment>
+    <keepRecordTypeOnAssignmentRule>true</keepRecordTypeOnAssignmentRule>
     <notifyContactOnCaseComment>false</notifyContactOnCaseComment>
     <notifyDefaultCaseOwner>false</notifyDefaultCaseOwner>
     <notifyOwnerOnCaseComment>false</notifyOwnerOnCaseComment>
@@ -59,7 +90,7 @@
     <rtaCaseDescription>false</rtaCaseDescription>
     <showEmailAttachmentsInCaseAttachmentsRL>true</showEmailAttachmentsInCaseAttachmentsRL>
     <showFewerCloseActions>false</showFewerCloseActions>
-    <systemUserEmail>noreply@00dqh00000a2gpc2a3</systemUserEmail>
+    <systemUserEmail>noreply@example.com.invalid</systemUserEmail>
     <useSystemEmailAddress>true</useSystemEmailAddress>
     <useSystemUserAsDefaultCaseUser>true</useSystemUserAsDefaultCaseUser>
     <visibleInCssCheckbox>false</visibleInCssCheckbox>

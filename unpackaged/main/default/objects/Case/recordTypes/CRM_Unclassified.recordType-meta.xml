@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRM_Unclassified</fullName>
+    <active>true</active>
+    <businessProcess>Customer Experience</businessProcess>
+    <label>Unclassified</label>
+    <picklistValues>
+        <picklist>CRM_Category__c</picklist>
+        <values>
+            <fullName>Acceptance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advance Notification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claims</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Damage Billing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dispatch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feedback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General%2FOther</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incident</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information%2FUpdate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Job Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Live%2FDead Checks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loss of Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPRN Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mains Diversion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maintenance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meter Box Repairs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minimum Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Physical Work</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plant Protection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reinstatement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Signing%2C Lighting%2C Guarding %26 Traffic Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Survey</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CRM_Customer_Type__c</picklist>
+        <values>
+            <fullName>CITIZENS ADVICE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONSUMER FOCUS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COUNCILLOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GAS CONSUMER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GAS NETWORK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GAS SUPPLIER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HS%26E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOCAL AUTHORITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEDIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEMBER OF PUBLIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OMBUDSMAN</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CRM_Network__c</picklist>
+        <values>
+            <fullName>Out-of-Network</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scotland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southern</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CRM_Outcome__c</picklist>
+        <values>
+            <fullName>Against</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>For</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CRM_Property_Type__c</picklist>
+        <values>
+            <fullName>Domestic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Domestic Customer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CRM_Reason_for_Cancellation__c</picklist>
+        <values>
+            <fullName>Duplicate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raised in error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Test</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CRM_Region__c</picklist>
+        <values>
+            <fullName>CRM-BURGHILL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-CON-AXIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-CON-HORL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-CSPERTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-DAMGBILL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-ICI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-LOSSBUS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-MAINT-SC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-MAINT-SO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-MAJPRJSC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-MAJSEREP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-MAJSOREP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-NTWKPLAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-NTWMOB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-OCC-SC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-OCC-SO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-PLANTLOC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-SC-CENT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-SC-EAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-SC-NORTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-SC-WEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-SE-ASH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-SE-DL-CO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-SE-EPS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-SE-GOD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-SE-HOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-SE-ORP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-SIU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-SO-ALD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-SO-DL-CO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-SO-LO-CO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-SO-N-CO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-SO-OXF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-SO-P-IOW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-SO-S-CO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-SO-SE-CO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-SO-SOL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-STHRISER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM-TPARCONN</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CRM_Site_Visit_Required_3rd_Party__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CRM_Sub_category__c</picklist>
+        <values>
+            <fullName>Acceptance Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Access%2FParking Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accuracy Challenge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Appliance Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Appliance%2FOutlet Pipework Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Application Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arrangements to carry out work</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assisted Connections</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assisted Connections%2FFuel Poverty Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Broken Promise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancellation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Capacity Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Capacity Increase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Change Date Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Check for Safety</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completion Letter Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consent Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer MPRN Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Satisfaction Survey Feedback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Damage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date query or change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deferral Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demolition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disconnection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disputed Charges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disputes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disruption</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disruption %26 Noise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Domestic Alteration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Domestic Disconnection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Domestic New Supply</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Easements %26 Servitudes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipment to be Uplifted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fleet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follow Up Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSMR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSOS Compensation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GT1 %26 GT2 Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gas Emergency Reported</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gas Holder Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gas In Area Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gas Loads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Communication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Governor Maintenance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Governor Station Site Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Human Resources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incident Update Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Info Request on Work Progress or Outcome</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Initial Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insufficient Notice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invoice Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Issue caused by work</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loss of Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAM Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPRN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mains Diversion Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mains Pipe Location Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meter Box Repairs Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meter Box Repairs Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meter Box Type or Location</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meter Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meter Position</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missed Appointment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Network Planning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non Domestic%2FMultiple Alteration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non Domestic%2FMultiple Disconnection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non Domestic%2FMultiple New Supply</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non SGN Network Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Obstruction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Utility Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outcome of Job</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overall Timescales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personal Injury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan Date Confirmation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan Date Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan Date Request Deferred by Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan Date Request Deferred by SGN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planning Letter Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Meter Exchange Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre Site Visit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Progress or Outcome</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proximity Work</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purge %26 Relight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality of Work</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quotation Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quotation Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Re-raise Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reconnection Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refund Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reimbursement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Safety Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Pipe Location Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Relay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skill %26 Professionalism</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skill %26 Professionalism of Office Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skill %26 Professionalism of Workforce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Speed of Reconnection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supplier Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supplier MPRN Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supply Interruption</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supply off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Survey Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Survey Timescales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thank you</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Time of Arrival</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Timescales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Traffic Disruption</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Traffic Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsatisfactory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Update Contact Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Variation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Variations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wayleaves</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website Related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Xoserve Enquiry</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CRM_Workstream__c</picklist>
+        <values>
+            <fullName>Connections</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emergency%2FRepair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mains Replacement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Miscellaneous</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IN PERSON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LETTER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LIVE CHAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral App</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOCIAL MEDIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TELEPHONE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WEB FORM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WhatsApp</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>Critical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Complex functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructions not clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User didn%27t attend training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Feature Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

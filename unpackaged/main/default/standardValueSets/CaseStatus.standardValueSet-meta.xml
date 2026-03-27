@@ -2,33 +2,45 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>New</fullName>
+        <fullName>NEW</fullName>
         <default>true</default>
-        <label>New</label>
+        <label>NEW</label>
         <closed>false</closed>
     </standardValue>
     <standardValue>
-        <fullName>On Hold</fullName>
+        <fullName>ASSIGNED</fullName>
         <default>false</default>
-        <label>On Hold</label>
+        <label>ASSIGNED</label>
         <closed>false</closed>
     </standardValue>
     <standardValue>
-        <fullName>Closed</fullName>
+        <fullName>RESOLVED</fullName>
         <default>false</default>
-        <label>Closed</label>
+        <label>RESOLVED</label>
         <closed>true</closed>
     </standardValue>
     <standardValue>
-        <fullName>Escalated</fullName>
+        <fullName>CANCELLED</fullName>
         <default>false</default>
-        <label>Escalated</label>
+        <label>CANCELLED</label>
         <closed>false</closed>
     </standardValue>
     <standardValue>
-        <fullName>Critical</fullName>
+        <fullName>INPROG</fullName>
         <default>false</default>
-        <label>Critical</label>
+        <label>INPROG</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>SUBSTRESP</fullName>
+        <default>false</default>
+        <label>SUBSTRESP</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>RESOLPEND</fullName>
+        <default>false</default>
+        <label>RESOLPEND</label>
         <closed>false</closed>
     </standardValue>
 </StandardValueSet>

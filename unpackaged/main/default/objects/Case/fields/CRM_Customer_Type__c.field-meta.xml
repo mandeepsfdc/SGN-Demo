@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRM_Customer_Type__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <complianceGroup>PII</complianceGroup>
+    <label>Customer Type</label>
+    <required>false</required>
+    <securityClassification>Internal</securityClassification>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CITIZENS ADVICE</fullName>
+                <default>false</default>
+                <label>CITIZENS ADVICE</label>
+            </value>
+            <value>
+                <fullName>CONSUMER FOCUS</fullName>
+                <default>false</default>
+                <label>CONSUMER FOCUS</label>
+            </value>
+            <value>
+                <fullName>COUNCILLOR</fullName>
+                <default>false</default>
+                <label>COUNCILLOR</label>
+            </value>
+            <value>
+                <fullName>GAS CONSUMER</fullName>
+                <default>false</default>
+                <label>GAS CONSUMER</label>
+            </value>
+            <value>
+                <fullName>GAS NETWORK</fullName>
+                <default>false</default>
+                <label>GAS NETWORK</label>
+            </value>
+            <value>
+                <fullName>GAS SUPPLIER</fullName>
+                <default>false</default>
+                <label>GAS SUPPLIER</label>
+            </value>
+            <value>
+                <fullName>HS&amp;E</fullName>
+                <default>false</default>
+                <label>HS&amp;E</label>
+            </value>
+            <value>
+                <fullName>LOCAL AUTHORITY</fullName>
+                <default>false</default>
+                <label>LOCAL AUTHORITY</label>
+            </value>
+            <value>
+                <fullName>MEDIA</fullName>
+                <default>false</default>
+                <label>MEDIA</label>
+            </value>
+            <value>
+                <fullName>MEMBER OF PUBLIC</fullName>
+                <default>false</default>
+                <label>MEMBER OF PUBLIC</label>
+            </value>
+            <value>
+                <fullName>MP</fullName>
+                <default>false</default>
+                <label>MP</label>
+            </value>
+            <value>
+                <fullName>MSP</fullName>
+                <default>false</default>
+                <label>MSP</label>
+            </value>
+            <value>
+                <fullName>OMBUDSMAN</fullName>
+                <default>false</default>
+                <label>OMBUDSMAN</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
