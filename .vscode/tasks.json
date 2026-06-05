@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Decode JSON",
+      "type": "process",
+      "command": "node",
+      "args": [
+        "-e",
+        "const fs = require('fs'); try { const text = fs.readFileSync('${file}', 'utf8').trim(); const decoded = Buffer.from(text, 'base64').toString('utf8'); const json = JSON.stringify(JSON.parse(decoded), null, 2); const outFile = '${file}'.replace('-Encoded.txt', '-Decoded.json').replace('.txt', '.json'); fs.writeFileSync(outFile, json); console.log('✅ Success! Created: ' + outFile); } catch(e) { console.error('❌ Error decoding file:', e.message); }"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
